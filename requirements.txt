@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary  # Or asyncpg if using async SQLAlchemy
+strawberry-graphql[fastapi]
+python-dotenv
+alembic
